@@ -1,6 +1,6 @@
-# VRQA
+# VRQA: Context-Adaptive View Routing for Long-document Question-answer Generation
 
-VRQA is the open-source codebase for the paper. It provides a full pipeline for data preparation, QA generation, training, inference, and evaluation.
+VRQA provides a full pipeline for data preparation, QA generation, training, inference, and evaluation.
 
 **Repository Layout**
 ```
