@@ -65,7 +65,7 @@ python scripts/02_train_stage0.py \
   --input "" \
   --output "" \
   --num_rounds 10 \
-  --sample_ratio_per_round 0.08
+  --sample_ratio_per_round 0.1
 ```
 
 Stage 1: FiLM only (uniform/mixed view sampling).
@@ -74,7 +74,7 @@ python scripts/03_train_stage1.py \
   --input "" \
   --output "" \
   --num_rounds 20 \
-  --sample_ratio_per_round 0.08
+  --sample_ratio_per_round 0.1
 ```
 
 Stage 2: LinUCB only.
@@ -83,7 +83,7 @@ python scripts/04_train_stage2.py \
   --input "" \
   --output "" \
   --num_rounds 20 \
-  --sample_ratio_per_round 0.08
+  --sample_ratio_per_round 0.1
 ```
 
 **Step 4. Inference**
